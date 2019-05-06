@@ -27,7 +27,7 @@ public class PlayScene extends QuadScene {
 		Button trialButton = new Button("Trial");
 
 		mainLayout.getChildren().addAll(tutorialButton, playButton, levelEditorButton, optionsButton, trialButton, view);
-
+/*
 		playButton.setOnAction(e -> {
 			Main.mainStage.setScene(new ArcadeGameScene(new GameLevel()));
 		});
@@ -38,6 +38,6 @@ public class PlayScene extends QuadScene {
 
 		optionsButton.setOnAction(e -> {
 			Main.mainStage.setScene(new SettingsScene(view));
-		});
+		});*/
 	}
 }
